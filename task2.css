@@ -1,0 +1,19 @@
+/* Card maximum width replacement for inline styles */
+.hack-card {
+    max-width: 700px;
+}
+
+/* Show error feedback only after user interaction using pseudo-classes */
+input:user-invalid, select:user-invalid, textarea:user-invalid {
+    border-color: #dc3545;
+}
+
+input:user-invalid ~ .invalid-feedback,
+select:user-invalid ~ .invalid-feedback,
+textarea:user-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+input:user-valid, select:user-valid, textarea:user-valid {
+    border-color: #198754;
+}
