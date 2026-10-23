@@ -34,14 +34,14 @@
             <div class="mb-3">
                 <label for="age" class="form-label">Age *</label>
                 <input type="number" class="form-control" id="age" min="16" max="30" required>
-                <div class="invalid-feedback">Must be a whole number from 16 to 30[cite: 3].</div>
+                <div class="invalid-feedback">Must be a whole number from 16 to 30.</div>
             </div>
 
             <!-- Team Size -->
             <div class="mb-3">
                 <label for="teamSize" class="form-label">Team size *</label>
                 <input type="number" class="form-control" id="teamSize" min="1" max="4" required>
-                <div class="invalid-feedback">Must be a whole number from 1 to 4[cite: 3].</div>
+                <div class="invalid-feedback">Must be a whole number from 1 to 4.</div>
             </div>
 
             <!-- Track -->
@@ -54,28 +54,28 @@
                     <option value="AI">AI</option>
                     <option value="GameDev">GameDev</option>
                 </select>
-                <div class="invalid-feedback">Please select a valid track[cite: 3].</div>
+                <div class="invalid-feedback">Please select a valid track.</div>
             </div>
 
             <!-- Arrival Day -->
             <div class="mb-3">
                 <label for="arrivalDay" class="form-label">Arrival day</label>
                 <input type="date" class="form-control" id="arrivalDay" min="2026-11-20" max="2026-11-22">
-                <div class="invalid-feedback">Must be 20-22 November 2026[cite: 3].</div>
+                <div class="invalid-feedback">Must be 20-22 November 2026.</div>
             </div>
 
             <!-- Check-in Time -->
             <div class="mb-3">
                 <label for="checkInTime" class="form-label">Check-in time *</label>
                 <input type="time" class="form-control" id="checkInTime" min="09:00" max="18:00" step="1800" required>
-                <div class="invalid-feedback">Must be 09:00-18:00, every 30 minutes[cite: 3].</div>
+                <div class="invalid-feedback">Must be 09:00-18:00, every 30 minutes.</div>
             </div>
 
             <!-- Entry Fee -->
             <div class="mb-3">
                 <label for="entryFee" class="form-label">Entry fee *</label>
                 <input type="number" class="form-control" id="entryFee" min="0" max="5000" step="500" required>
-                <div class="invalid-feedback">Must be 0-5000 T, in steps of 500[cite: 3].</div>
+                <div class="invalid-feedback">Must be 0-5000 T, in steps of 500.</div>
             </div>
 
             <!-- Experience Level -->
@@ -106,21 +106,21 @@
             <div class="mb-3">
                 <label for="password" class="form-label">Password *</label>
                 <input type="password" class="form-control" id="password" minlength="8" maxlength="20" required>
-                <div class="invalid-feedback">Must be 8-20 characters[cite: 3].</div>
+                <div class="invalid-feedback">Must be 8-20 characters.</div>
             </div>
 
             <!-- Motivation -->
             <div class="mb-3">
                 <label for="motivation" class="form-label">Motivation *</label>
                 <textarea class="form-control" id="motivation" rows="3" minlength="50" maxlength="300" required></textarea>
-                <div class="invalid-feedback">Must be between 50 and 300 characters[cite: 3].</div>
+                <div class="invalid-feedback">Must be between 50 and 300 characters.</div>
             </div>
 
             <!-- Rules Agreement -->
             <div class="mb-4 form-check">
                 <input type="checkbox" class="form-check-input" id="rules" required>
                 <label class="form-check-label" for="rules">Rules agreement *</label>
-                <div class="invalid-feedback">You must agree to the rules[cite: 3].</div>
+                <div class="invalid-feedback">You must agree to the rules.</div>
             </div>
 
             <button type="submit" class="btn btn-primary w-100">Register</button>
